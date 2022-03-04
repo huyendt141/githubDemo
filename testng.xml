@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true" name="C:/Users/hoang/IdeaProjects/E2Eproject">
+        <classes>
+            <class name="Academy.HomePage">
+                <methods>
+                    <include name="basePageNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/hoang/IdeaProjects/E2Eproject">
+        <classes>
+            <class name="Academy.validateNavigationBar">
+                <methods>
+                    <include name="validateAppNavBar"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/hoang/IdeaProjects/E2Eproject">
+        <classes>
+            <class name="Academy.validateTitle">
+                <methods>
+                    <include name="validateAppTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
